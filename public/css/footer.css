@@ -1,0 +1,78 @@
+/* COMMENTS */
+.all-comments {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3em;
+  }
+ 
+ .all-comments h4 {
+   margin: 1em 0;
+ }
+ 
+ footer h2 {
+    text-align: center;
+    font-size: 2em;
+    text-decoration: underline solid var(--color-fa-regular-icons) 2px;
+    text-underline-offset: 10px;
+  }
+  
+  .comments {
+    flex: 1 0 25%;
+    text-align: center;
+    margin: 3em;
+  }
+  
+  .comment-img {
+    width: 7em;
+    border-radius: 50%;
+    margin-bottom: .5em;
+  }
+  
+  .comments p {
+    line-height: 1.8;
+  }
+ 
+  .five-stars {
+   width: 7em;
+   margin: 0 auto;
+  }
+ 
+ 
+  /* LAST FOOTER */
+ .last-footer {
+   display: flex;
+   justify-content: space-between;
+   background-color: #000;
+   color: #e6cc94;
+   padding: .5em 4em .5em 4em;
+ }
+ 
+ .last-footer p {
+ margin: 0;
+ }
+ 
+ .last-footer .fa-brands {
+   color: #e6cc94;
+   font-size: 1.5em;
+ }
+ 
+ .last-footer .fa-instagram {
+   padding-left: 1em;
+ }
+ 
+ .last-footer .fa-github {
+ font-size: 1.2em;
+ padding-left: .2em;
+ }
+ 
+ .stolen {
+ color: #e6cc94;
+ }
+ 
+ .stolen:hover,
+ .stolen:active {
+ text-decoration: underline;
+ }
+ 
+ 
+ 

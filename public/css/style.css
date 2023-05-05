@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Gruppo&display=swap');
+
+:root {
+  --color-order-button:#f7a461;
+  --color-fa-regular-icons:#e6cc94;
+  --color-odoslat-email-button-hover:#f1e0bc;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.7;
+}
+
+ul {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+strong {
+  color: var(--color-fa-regular-icons);
+}
+
+
+/* ALERTS */
+.alert-success {
+  background-color: #02c300;
+}
+
+.alert-danger {
+  background-color: #FF0000;
+}
+
+.flash-message {
+  max-width: 30em;
+  margin: 0 auto;
+  position: relative;
+  top: 7.5em;
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width:960px) {
+  .services-1,.services-2,.services-3,.services-4 {
+    flex: 1 0 27%;
+  }
+
+  .services {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width:899px) {
+  .main-navigation-a {
+    display: none;
+  }
+
+  .fa-bars {
+    display: block;
+  }
+
+  .last-footer {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:660px) {
+  .tel-social-media {
+    justify-content: center;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width:570px) {
+  .index-icons {
+    display: block;
+    text-align: center;
+  }
+}

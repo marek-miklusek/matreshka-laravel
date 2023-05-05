@@ -1,0 +1,185 @@
+/* SERVICES */
+.services {
+    display: flex;
+  }
+  
+  .services-each img {
+    width: 10em;
+    border-radius: 50%;
+  }
+  
+  .services-each {
+    text-align: center;
+    padding: 2em;
+  }
+  
+  .services-each h2 {
+    padding-top: .5em;
+    font-size: 1.6em;
+  }
+  
+  .services-each p {
+    line-height: 2.5;
+  }
+  
+  .services-each:nth-child(1) {background-color: #fff2e9;}
+  .services-each:nth-child(2) {background-color: #e6cc9466;}
+  .services-each:nth-child(3) {background-color: #fce1c9;}
+  .services-each:nth-child(4) {background-color: #f6e7dc;}
+  
+  
+  /* WHY ME */
+  .why-me {
+    padding: 3.5em 3em 0 3em; 
+  }
+  
+  .why-me h2 {
+    margin-bottom: 1.5em;
+  }
+  
+  .index-icons {
+    display: flex;
+    margin-top: 5em;
+  }
+  
+  .index_icons p {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .heart,.star,.quality,.fashion {
+    text-align: center;
+    flex: 1;
+  }
+  
+  .fa-regular {
+    font-size: 3em;
+    color: var(--color-fa-regular-icons);
+    -webkit-text-stroke: 2px white;
+  }
+  
+  .box-order-button {
+    display: flex;
+    justify-content: center;
+    margin: 4em;
+  }
+  
+  
+  /* GALLERY */
+  .matreshka-on-facebook {
+    text-align: center;
+    background-color:#f1e0bc;
+    padding: 2em 0;
+    margin-bottom: 3em;
+  }
+  
+  .matreshka-on-facebook a:hover,
+  .matreshka-on-facebook a:active {
+    transform: scale(1);
+  }
+  
+  .matreshka-on-facebook img {
+    max-width: 13em;
+    padding: .3em;
+    transition: all .5s ease-in-out;
+  }
+  
+  .matreshka-on-facebook img:hover {
+    transform: scale(1.08);
+  }
+  
+  .matreshka-on-facebook h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 1.5em;
+  }
+  
+  .index-image-second {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .index-image-second a {
+    flex: 1 0 22%;
+  }
+  
+  .watch-me-fb {
+    display: inline-block;
+    color: #fff;
+    background-color: #408bd1;
+    padding: .5em 1em;
+    border-radius: 3px;
+    margin-top: 1em;
+  }
+  
+  .watch-me-fb:hover,
+  .watch-me-fb:active {
+    background-color: #359dff;
+  }
+  
+  .watch-me-fb .fa-facebook {
+    color: #fff;
+    padding-right: .5em;
+  }
+  
+  
+  /* MAIN ABOUT SALON */
+  .about-owner {
+    display: flex;
+    width: 80%;
+    margin: 3em auto 4.5em auto;
+    background-color: #feefe2;
+    color: #282828;
+  }
+  
+  .about-owner img {
+    width: 10em;
+    height: 10em;
+    position: relative;
+    top: 6px;
+  }
+  
+  .about-owner img, .about-owner-text {
+    padding: 1.5em;
+  }
+  
+  .about-owner-text p {
+    margin: 0;
+    font-style: italic;
+  }
+  
+  .about-owner-text h4 {
+    margin: 1em 0;
+  }
+  
+  
+  /* MAIN KONTAKT */
+  .form {
+    padding-top: 10em;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn {
+    background-color: burlywood;
+  }
+  
+  .btn:hover,
+  .btn:active {
+    background-color: var(--color-odoslat-email-button-hover);
+  }
+
+  .errors {
+    color: #FF0000;
+  }
+
+
+  /* MAIN GALLERY */
+  .nothing-to-show {
+    color: burlywood;
+  }
+
+  
+  
+  
+  
