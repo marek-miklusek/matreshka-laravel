@@ -1,7 +1,6 @@
 <?php
 
 use App\Http\Controllers\PagesController;
-use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,12 +19,16 @@ Route::get('O salóne', [PagesController::class, 'about']);
 Route::get('Galéria', [PagesController::class, 'gallery']);
 Route::get('Kontakt', [PagesController::class, 'contact']);
 Route::get('Cenník', [PagesController::class, 'price_list']);
-
 Route::post('Kontakt', [PagesController::class, 'store']);
 
-// Example how to use next segments in URI (segment can be optional{slug?})
-// plus regular expression
-// Route::get('whatever/{id}/{slug}', [PagesController::class, 'whatever'])
+/*
+|--------------------------------------------------------------------------
+| Example how to use more segments in URI (segment can be optional {slug?})
+| plus regular expression (->where)
+|--------------------------------------------------------------------------
+*/
+
+// Route::get('whatever/{id}/{slug}', [PagesController::class, 'method'])
 //     // Condition with regular expression, only numbers
 //     ->where('id', '[0-9]+')
 //     // Condition with regular expression, only small letters and hyphens

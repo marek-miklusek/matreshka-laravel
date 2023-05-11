@@ -206,17 +206,17 @@
   
   
     /* GALERIA */
-  .gallery_show_nails {
+  .gallery-show-nails {
     padding-top: 13em;
     text-align: center;
   }
   
-  .gallery_show_nails h1 {
+  .gallery-show-nails h1 {
     text-decoration: underline solid var(--color-fa-regular-icons) 2px;
     text-underline-offset: 10px;
   }
   
-  .gallery_show_nails p {
+  .gallery-show-nails p {
     font-size: 20px;
     width: 5em;
     margin: 0 auto;
@@ -224,12 +224,12 @@
     text-underline-offset: 7px;
   }
   
-  .gallery_image_second {
+  .gallery-image-second {
     text-align: center;
     margin-top: 5em;
   }
   
-  .gallery_image_second img {
+  .gallery-image-second img {
     vertical-align: middle;
     width: 14em;
     height: 14em;

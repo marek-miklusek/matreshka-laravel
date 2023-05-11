@@ -12,7 +12,6 @@
    </div>
 
    <div class="index-icons">
-
       <div class="heart">
          <p><i class="fa-regular fa-heart"></i></p>
          <p>Príjemné prostredie</p>
@@ -32,7 +31,6 @@
          <p><i class="fa-regular fa-handshake"></i></p>
          <p>Vzájomná spokojnosť</p>
       </div>
-   
    </div>
 
 </section>

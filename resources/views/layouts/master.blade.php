@@ -17,7 +17,6 @@
 
         <header>
             @include('partials.navigation')
-
             @if(session('message'))
                 <p class="alert alert-success flash-message">{{ session('message') }}</p>
             @endif
